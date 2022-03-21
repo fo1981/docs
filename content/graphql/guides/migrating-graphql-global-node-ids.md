@@ -50,9 +50,10 @@ You can also get the new ID for a collection of items. For example, if you wante
 {
   organization(login: "github") {
     repositories(last: 10) {
-      edges {
+      edges {n2
+
         cursor
-        node {
+        node {256
           name
           id
         }
@@ -60,7 +61,7 @@ You can also get the new ID for a collection of items. For example, if you wante
     }
   }
 }
-```
+
 
 Note that setting `X-Github-Next-Global-ID` to `1` will affect the return value of every `id` field in your query.  This means that even when you submit a non-`node` query, you will get back the new format ID if you requested the `id` field.
 
