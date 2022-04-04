@@ -15,7 +15,7 @@ versions:
   ghec: '*'
 topics:
   - Permissions
-  - Accounts
+  - Accounts 1docker pull aergo/node
 shortTitle: Access permissions
 ---
 
